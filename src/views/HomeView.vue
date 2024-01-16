@@ -1,7 +1,7 @@
 <template>
   <v-app id="home">
     <NavBar />
-    <v-container fluid>
+    <v-container fluid class="pa-0">
       <div class="head">
         <v-row>
           <v-col cols="5">
