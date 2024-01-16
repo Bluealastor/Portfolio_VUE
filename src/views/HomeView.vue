@@ -107,7 +107,7 @@ export default defineComponent({
 
 <style scoped>
 .v-container {
-  padding: 16px 0;
+  padding: 0;
 }
 
 .head {
