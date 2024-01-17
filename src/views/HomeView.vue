@@ -39,23 +39,23 @@
               <h2 class="mb-2">About Me</h2>
               <h4 class="mb-4">I Am a Web Developer</h4>
               <div style="width:40em">
-              <p class="text-grey" >
-                Sono Christian Esposito, uno sviluppatore web appassionato con un occhio attento
-                per la creatività. La mia competenza principale risiede nello sviluppo web,
-                dove ho accumulato esperienza in progetti significativi,
-                dimostrando una solida padronanza delle tecnologie Front-End
-              </p>
-                <br/>
-              <p class="text-grey" >
-                Oltre al mondo del codice, coltivo la passione per la fotografia, trovando ispirazione nell'arte di
-                catturare momenti unici,
-                In aggiunta l'amore per le moto non è solo un hobby,
-                ma un modo di abbracciare l'innovazione e l'avventura.
-                La capacità di affrontare sfide, la precisione e l'attenzione ai dettagli acquisite sui percorsi
-                in moto si riflettono nel mio approccio al lavoro.
-              </p>
-              <v-btn tile dark color="blue" class="mt-4"> Download CV</v-btn>
-            </div>
+                <p class="text-grey">
+                  Sono Christian Esposito, uno sviluppatore web appassionato con un occhio attento
+                  per la creatività. La mia competenza principale risiede nello sviluppo web,
+                  dove ho accumulato esperienza in progetti significativi,
+                  dimostrando una solida padronanza delle tecnologie Front-End
+                </p>
+                <br />
+                <p class="text-grey">
+                  Oltre al mondo del codice, coltivo la passione per la fotografia, trovando ispirazione nell'arte di
+                  catturare momenti unici,
+                  In aggiunta l'amore per le moto non è solo un hobby,
+                  ma un modo di abbracciare l'innovazione e l'avventura.
+                  La capacità di affrontare sfide, la precisione e l'attenzione ai dettagli acquisite sui percorsi
+                  in moto si riflettono nel mio approccio al lavoro.
+                </p>
+                <v-btn tile dark color="blue" class="mt-4"> Download CV</v-btn>
+              </div>
             </v-col>
           </v-row>
         </div>
@@ -68,11 +68,11 @@
           <v-row>
             <v-col cols="12">
               <div class="child">
-                 <v-btn icon="fas fa-laptop" color="blue" class="text-white"></v-btn>
-                 <h3 class="ml-3 mt-4">Web Developer</h3>
-                 <p class="text-grey ml-3 mt-4 text-caption">
+                <v-btn icon="fas fa-laptop" color="blue" class="text-white"></v-btn>
+                <h3 class="ml-3 mt-4">Web Developer</h3>
+                <p class="text-grey ml-3 mt-4 text-caption">
                   Progetti creati come Web Developer
-                 </p>
+                </p>
               </div>
               <!-- <div class="child">
                 <v-btn icon="fas fa-camera" color="blue" class="text-white"></v-btn>
@@ -85,6 +85,26 @@
           </v-row>
           <v-divider></v-divider>
         </div>
+      </v-col>
+      <v-col cols="12" sm="12" id="services">
+        <div class="d-flex justify-center mb-6">
+          <v-btn color="blue" class="mr-2">All</v-btn>
+          <v-btn class="mr-2" variant="tonal">Front End</v-btn>
+          <v-btn class="mr-2" variant="tonal">all2</v-btn>
+        </div>
+      </v-col>
+      <v-col cols="12" class="imgHover">
+        <v-row class="fill-height" align="center" justify="center">
+          <template v-for="(item, i) in items" :key="i">
+            <v-col cols="12" md="4">
+              <v-hover v-slot="isHovering, props">
+                <v-card :elevation="isHovering ? 12 : 2" :class="{ 'on-hover': isHovering }" v-bind="props">
+                  <v-img :src="item.img" height="225" cover></v-img>
+                </v-card>
+              </v-hover>
+            </v-col>
+          </template>
+        </v-row>
       </v-col>
     </v-container>
   </v-app>
@@ -99,6 +119,38 @@ import NavBar from '@/components/NavBar.vue'
 export default defineComponent({
   name: 'HomeView',
 
+  setup () {
+    return {
+
+      items: [
+        {
+          img: '',
+          link: ''
+        },
+        {
+          img: '',
+          link: ''
+        },
+        {
+          img: '',
+          link: ''
+        },
+        {
+          img: '',
+          link: ''
+        },
+        {
+          img: '',
+          link: ''
+        },
+        {
+          img: '',
+          link: ''
+        }
+      ]
+    }
+  },
+
   components: {
     NavBar
   }
@@ -106,10 +158,6 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.v-container {
-  padding: 0 !important;
-}
-
 .head {
   position: relative;
   text-align: center;
@@ -159,14 +207,14 @@ export default defineComponent({
   text-align: center;
 }
 
-.first{
-  whidt:100%;
+.first {
+  whidt: 100%;
   height: 280px;
   text-align: center;
   padding: 2rem 2rem;
 }
 
-.child{
+.child {
   display: inline-block;
   padding: 2rem 1rem;
   vertical-align: middle;
@@ -174,21 +222,23 @@ export default defineComponent({
   margin-right: 8px;
 }
 
-.imgHover{
+.imgHover {
   padding: 0 200px;
 }
-.pre{
+
+.pre {
   width: 100%;
   height: 380px;
   text-align: center;
   padding: 0 200px;
   background-color: #f5f5f5;
 }
-.hire{
-width: 100%;
-height: 200px;
-padding: 0 200px;
-background-color: #e9e9e9;
-margin-top: -24px;
+
+.hire {
+  width: 100%;
+  height: 200px;
+  padding: 0 200px;
+  background-color: #e9e9e9;
+  margin-top: -24px;
 }
 </style>
