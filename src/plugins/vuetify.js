@@ -1,7 +1,7 @@
 // Styles
 import '@fortawesome/fontawesome-free/css/all.css'
 import '@mdi/font/css/materialdesignicons.css'
-import { aliases, fa, fas } from 'vuetify/iconsets/fa'
+import { aliases, fa } from 'vuetify/iconsets/fa'
 import 'vuetify/styles'
 
 // Vuetify
@@ -14,8 +14,7 @@ export default createVuetify(
       defaultSet: 'fa',
       aliases,
       sets: {
-        fa,
-        fas
+        fa
       }
     }
   }

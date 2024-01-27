@@ -1,10 +1,10 @@
 <template>
         <div class="first" id="project">
           <v-row>
-            <v-col cols="12">
+            <v-col>
               <div class="child mx-auto my-auto text-center">
                 <v-img height="5em" src="../assets/icon/software-development.png"/>
-                <h3 class="ml-3 mt-4 ">Web Developer</h3>
+                <h3 class="ml-3 mt-4">Web Developer</h3>
                 <p class="text-grey ml-3 mt-4 text-caption">
                   Progetti creati come Web Developer
                 </p>

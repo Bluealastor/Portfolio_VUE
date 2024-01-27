@@ -5,7 +5,7 @@
               <v-btn class="mx-4" variant="text" @click="scroll('portfolio')">Portfolio</v-btn>
               <v-btn class="mx-4" variant="text" @click="scroll('home')">Home</v-btn>
               <v-btn class="mx-4" variant="text" @click="scroll('about')" >About us</v-btn>
-              <v-btn class="mx-4" variant="text" >Contact</v-btn>
+              <v-btn class="mx-4" variant="text" :href="'mailto:' + 'chrisexp00@gmail.com'">Contact</v-btn>
           </v-card-text>
           <v-card-text>
               @ {{ new Date().getFullYear()}} <strong></strong>
@@ -29,5 +29,9 @@ export default {
   <style scoped>
   .v-footer {
     padding: 8px 0 !important;
+  }
+
+  a{
+    text-decoration: none;
   }
   </style>

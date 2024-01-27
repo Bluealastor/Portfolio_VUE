@@ -8,8 +8,8 @@
             <div class="container-text mt-16">
               <h2 class="text-white">Hello,</h2>
               <h2 class="text-white">I'M Christian Esposito</h2>
-              <span class="text-white">Web Developer</span><br />
-              <v-btn tile dark class="text-blue mt-8" variant="outlined">Contact Me</v-btn>
+              <span class="text-white">Junior Web Developer</span><br />
+              <v-btn tile dark class="text-blue mt-8" variant="outlined" :href="'mailto:' + 'chrisexp00@gmail.com'">Contact Me</v-btn>
             </div>
           </v-col>
           <v-col cols="2">
@@ -37,11 +37,11 @@
           <v-row>
             <v-col cols="12">
               <div class="child mx-auto my-auto text-center">
-                <v-img src="../assets/icon/development.png"  height="3em" class="text-white"></v-img>
+                <v-img src="../assets/icon/development.png"  height="5em"></v-img>
                 <h3 >Web Developer</h3>
-                <!-- <p class="text-grey ml-3 mt-4 text-caption">
-                  Progetti creati come Web Developer
-                </p> -->
+                <p class="text-grey ml-3 mt-4 text-caption">
+                  Progetti creati con le seguenti Tecnologie
+                </p>
               </div>
               <!-- <div class="child">
                 <v-btn icon="fas fa-camera" color="blue" class="text-white"></v-btn>
