@@ -3,7 +3,7 @@
         <v-row>
           <v-col cols="12" sm="6">
             <div class="egg">
-              <v-img src="https://kgrassociates.com/wp-content/uploads/sites/36/2016/06/Happy-Business-Guy.jpg"
+              <v-img src="../assets/Photo.jpg"
                 max-height="200"></v-img>
             </div>
           </v-col>
