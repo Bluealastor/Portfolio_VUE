@@ -30,7 +30,7 @@
         <AboutComponentView/>
       </v-col>
       <div class="text-center mt-4">
-        <h2>Cosa Faccio</h2>
+        <h2>What I do</h2>
       </div>
       <v-col cols="12" class="padd" id="portfolio">
         <div class="first" id="project">
@@ -40,7 +40,7 @@
                 <v-img src="../assets/icon/development.png"  height="5em"></v-img>
                 <h3 >Web Developer</h3>
                 <p class="text-grey ml-3 mt-4 text-caption">
-                  Progetti creati con le seguenti Tecnologie
+                  Projects created with the following technologies
                 </p>
               </div>
               <!-- <div class="child">

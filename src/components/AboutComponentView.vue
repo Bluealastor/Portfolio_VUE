@@ -12,21 +12,16 @@
             <h4 class="mb-4">I Am a Web Developer</h4>
             <div style="width:40em">
               <p class="text-grey">
-                Sono Christian Esposito, uno sviluppatore web appassionato con un occhio attento
-                per la creatività. La mia competenza principale risiede nello sviluppo web,
-                dove ho accumulato esperienza in progetti significativi,
-                dimostrando una solida padronanza delle tecnologie Front-End
+                I am Christian Esposito, a passionate web developer with a keen eye for creativity.
+                My main expertise lies in web development, where I have accumulated experience in significant projects, demonstrating a strong command of Front-End technologies.
               </p>
               <br />
               <p class="text-grey">
-                Oltre al mondo del codice, coltivo la passione per la fotografia, trovando ispirazione nell'arte di
-                catturare momenti unici,
-                In aggiunta l'amore per le moto non è solo un hobby,
-                ma un modo di abbracciare l'innovazione e l'avventura.
-                La capacità di affrontare sfide, la precisione e l'attenzione ai dettagli acquisite sui percorsi
-                in moto si riflettono nel mio approccio al lavoro.
+                Beyond the world of code, I cultivate a passion for photography, finding inspiration in the art of capturing unique moments.
+                In addition, my love for motorcycles is not just a hobby but a way to embrace innovation and adventure.
+                The ability to tackle challenges, precision, and attention to detail acquired on motorcycle journeys are reflected in my approach to work.
               </p>
-              <v-btn tile dark color="blue" class="mt-4"> Download CV</v-btn>
+              <v-btn tile dark color="blue" class="mt-4" disabled> Download CV</v-btn>
             </div>
           </v-col>
         </v-row>
