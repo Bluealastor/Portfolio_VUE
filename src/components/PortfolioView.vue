@@ -6,7 +6,7 @@
                 <v-img height="5em" src="../assets/icon/software-development.png"/>
                 <h3 class="ml-3 mt-4">Web Developer</h3>
                 <p class="text-grey ml-3 mt-4 text-caption">
-                  Progetti creati come Web Developer
+                  Projects created with the following technologies
                 </p>
               </div>
               <v-row align="center" justify="center" >
