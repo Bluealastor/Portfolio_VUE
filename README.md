@@ -15,7 +15,7 @@
 <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Vuetify-35495E?style=for-the-badge&logo=vuetify&logoColor=1a95e5"></a>
 
 
-### Lenguage
+### Language
 
 <a href="https://www.javascript.com/" target="_blank" rel="noreferref"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/></a>
 <a href="https://www.w3schools.com/Css/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"></a>
